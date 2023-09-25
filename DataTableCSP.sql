@@ -9,11 +9,11 @@ CREATE TABLE TeamOne (
 
 INSERT INTO TeamOne (FirstName, LastName, TeamPosition)
 VALUES
+	("Satya", "Edidi", "Frontend Developer"); 
+	("Sonal", "Madala", "Content Specialist"), 
+	("Priyanka", "Manglani", "Backend Developer"), 
 	("Sanjana", "Mohan", "Backend Developer"),
-    ("Ishika", "Singh", "Webmaster"),
-    ("Sonal", "Madala", "Content Specialist"), 
-    ("Priyanka", "Manglani", "Backend Developer"), 
-    ("Varna", "Srinivasan", "Frontend Developer"), 
-    ("Satya", "Edidi", "Frotnend Developer"); 
+	("Ishika", "Singh", "Webmaster"),
+	("Varna", "Srinivasan", "Frontend Developer"), 
 		
 SELECT * FROM TeamOne; 
