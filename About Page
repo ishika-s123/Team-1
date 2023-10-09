@@ -1,14 +1,12 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Team 1 About US</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+<html><head>
+		<title>About Us</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="">
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -17,9 +15,7 @@
 					<div class="inner">
 
 						<!-- Logo -->
-							<a href="index.html" class="logo">
-								<span class="fa fa-pencil"></span> <span class="title">Blog Website</span>
-							</a>
+							
 
 						<!-- Nav -->
 							<nav>
@@ -32,20 +28,7 @@
 				</header>
 
 			<!-- Menu -->
-				<nav id="menu">
-					<h2>Menu</h2>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-
-						<li><a href="blog.html">Blog</a></li>
-
-						<li><a href="about.html" class="active">About</a></li>
-
-						<li><a href="team.html">Authors</a></li>
-
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</nav>
+				
 
 				<!-- Main -->
 					<div id="main">
@@ -53,16 +36,15 @@
 							<h1>About Us</h1>
 
 							<div class="image main">
-								<img src="images/banner-image-1-1920x500.jpg" class="img-fluid" alt="" />
+								
 							</div>
-							<h2> Our Team </h2>
 
-							<p>Ishika: </p>
-							<p>Sanjana: </p>
-							<p>Priyanka: </p>
-							<p>Sonal: </p>
-							<p>Varna: </p>
-							<p>Satya: </p>
+							<p>Ishika:
+							Sanjana:
+							Sonal:
+							Priyanka:
+							Satya:
+							Varna:</p>
 						</div>
 					</div>
 
@@ -94,6 +76,19 @@
 			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
-</html>
+			<script src="assets/js/main.js"></script><nav id="menu"><div class="inner">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+
+						<li><a href="blog.html">Blog</a></li>
+
+						<li><a href="about.html" class="active">About</a></li>
+
+						<li><a href="team.html">Authors</a></li>
+
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div><a class="close" href="#menu">Close</a></nav>
+	
+</body></html>
