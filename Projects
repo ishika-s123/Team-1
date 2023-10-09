@@ -1,92 +1,90 @@
-t<html><head>
-		<title>PHPJabbers.com | Free Blog Website Template</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/main.css">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="">
-		<!-- Wrapper -->
-			<div id="wrapper">
+<html><head>
+	<title>Team 1 | Projects</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="">
+	<!-- Wrapper -->
+		<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+			<!-- Header -->
+				<header id="header">
+					<div class="inner">
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="fa fa-pencil"></span> <span class="title">Team 1</span>
-								</a>
+						<!-- Logo -->
+							<a href="index.html" class="logo">
+								<span class="fa fa-code"></span> <span class="title">Team 1</span>
+							</a>
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
-
-						</div>
-					</header>
-
-				<!-- Menu -->
-					
-
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<h1>Projects</h1>
-
-							<div class="image main">
-								<img src="images/banner-image-3-1920x500.jpg" class="img-fluid" alt="">
-							</div>
-							
-							
-						</div>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<ul class="icons">
-									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<!-- Nav -->
+							<nav>
+								<ul>
+									<li><a href="#menu">Menu</a></li>
 								</ul>
+							</nav>
 
-								&nbsp;
-							</section>
+					</div>
+				</header>
 
-							<ul class="copyright">
-								<li>Copyright © 2020 Company Name </li>
-								<li>Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></li>
-							</ul>
+			<!-- Menu -->
+				
+
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
+						<h1>Projects</h1>
+
+						<div class="image main">
+							<img src="" class="img-fluid" alt="">
 						</div>
-					</footer>
+						
+						
+					</div>
+				</div>
 
-			</div>
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<ul class="icons">
+								<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/main.js"></script><nav id="menu"><div class="inner">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
+							&nbsp;
+						</section>
 
-							<li><a href="blog.html" class="active">Blog</a></li>
-
-							<li><a href="about.html">About</a></li>
-
-							<li><a href="team.html">Authors</a></li>
-
-							<li><a href="contact.html">Contact Us</a></li>
+						<ul class="copyright">
+							<li>Copyright © 2020 Company Name </li>
+							<li>Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></li>
 						</ul>
-					</div><a class="close" href="#menu">Close</a></nav>
+					</div>
+				</footer>
 
-	
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/main.js"></script><nav id="menu"><div class="inner">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+
+						<li><a href="projects.html" class="active">Projects</a></li>
+
+						<li><a href="about.html">About Us</a></li>
+
+						<li><a href="team.html">Our Team</a></li>
+					</ul>
+				</div><a class="close" href="#menu">Close</a></nav>
+
+
 </body></html>
