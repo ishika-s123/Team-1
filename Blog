@@ -1,5 +1,5 @@
 <html><head>
-		<title>PHPJabbers.com | Free Blog Website Template</title>
+		<title>Our Projects</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -48,7 +48,7 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Blog</h1>
+							<h1>Project</h1>
 
 							<div class="image main">
 								<img src="images/banner-image-3-1920x500.jpg" class="img-fluid" alt="">
