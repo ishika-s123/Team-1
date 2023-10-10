@@ -64,7 +64,6 @@
 										<p>
 											Content Specialist <br>
 
-											 &nbsp;
 											
 										</p>
 									</div>
@@ -72,10 +71,23 @@
 									<div class="col-sm-3 text-center">
 										<img src="images/author-image-3-646x680.jpg" class="img-fluid" alt="">
 
-										<h2 class="m-n">Varna Srinivasan, Satya </h2>
+										<h2 class="m-n">Varna Srinivasan</h2>
 
 										<p>
-											Front End Developers <br>
+											Front End Developer <br>
+
+											
+										</p>
+									</div>
+									</div>
+
+									<div class="col-sm-3 text-center">
+										<img src="images/author-image-3-646x680.jpg" class="img-fluid" alt="">
+
+										<h2 class="m-n">Satya </h2>
+
+										<p>
+											Front End Developer <br>
 
 											
 										</p>
@@ -84,10 +96,23 @@
 									<div class="col-sm-3 text-center">
 										<img src="images/author-image-4-646x680.jpg" class="img-fluid" alt="">
 
+										<h2 class="m-n">Priyanka Manglani</h2>
+
+										<p>
+											Back End Developer <br>
+
+											
+										</p>
+									</div>
+									</div>
+
+									<div class="col-sm-3 text-center">
+										<img src="images/author-image-4-646x680.jpg" class="img-fluid" alt="">
+
 										<h2 class="m-n">Sanjana Mohan, Priyanka Manglani</h2>
 
 										<p>
-											Back End Developers <br>
+											Back End Developer <br>
 
 											
 										</p>
@@ -102,7 +127,7 @@
 						<div class="inner">
 							<section>
 								
-								&nbsp;
+							
 							</section>
 
 							<ul class="copyright">
