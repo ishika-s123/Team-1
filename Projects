@@ -38,9 +38,9 @@
 						<h1>Projects</h1>
 
 						<div class="image main">
-							<img src="" class="img-fluid" alt="">
+							<img src="https://assets.kpmg.com/is/image/kpmg/project-management-banner:cq5dam.web.1400.350" class="img-fluid" alt="">
 						</div>
-						<h1> Here we will display our projects as the year goes on! </h1>
+						
 						
 					</div>
 				</div>
@@ -48,17 +48,6 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<div class="inner">
-						<section>
-							<ul class="icons">
-								<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							</ul>
-
-							&nbsp;
-						</section>
-
 						<ul class="copyright">
 							<li>Copyright © 2020 Company Name </li>
 							<li>Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a></li>
@@ -83,6 +72,8 @@
 						<li><a href="about.html">About Us</a></li>
 
 						<li><a href="team.html">Our Team</a></li>
+
+						<li><a href="login.html">Login</a></li>
 					</ul>
 				</div><a class="close" href="#menu">Close</a></nav>
 
