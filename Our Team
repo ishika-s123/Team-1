@@ -1,12 +1,14 @@
-<html><head>
-		<title>Team 1</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/main.css">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Team 1 | Team</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="">
+	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -16,7 +18,7 @@
 
 						<!-- Logo -->
 							<a href="index.html" class="logo">
-								<span class="fa fa-pencil"></span> <span class="title">Team 1</span>
+								<span class="fa fa-code"></span> <span class="title">Team</span>
 							</a>
 
 						<!-- Nav -->
@@ -30,7 +32,20 @@
 				</header>
 
 			<!-- Menu -->
-				
+				<nav id="menu">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+
+						<li><a href="projects.html">Projects</a></li>
+
+						<li><a href="about.html">About Us</a></li>
+
+						<li><a href="team.html" class="active">Our Team</a></li>
+
+						<li><a href="login.html">Login</a></li>
+					</ul>
+				</nav>
 
 				<!-- Main -->
 					<div id="main">
@@ -38,83 +53,68 @@
 							<h1>Meet the Team</h1>
 
 							<div class="image main">
-								<img src="images/banner-image-2-1920x500.jpg" class="img-fluid" alt="">
+								<img src="https://template.canva.com/EAENvpM8lg0/1/0/1600w-ENugiXwwVkE.jpg" class="img-fluid" alt="" />
 							</div>
 
 							<div class="container">
 								<div class="row">
 									<div class="col-sm-3 text-center">
-										<img src="images/author-image-1-646x680.jpg" class="img-fluid" alt="">
+										<img src="https://live.staticflickr.com/65535/53250284968_d987963799_m.jpg" class="img-fluid" alt="" />
 
 										<h2 class="m-n">Ishika Singh</h2>
 
 										<p>
 											Webmaster <br>
-
-											 &nbsp;
-											<a href="#"></a>
 										</p>
 									</div>
 
 									<div class="col-sm-3 text-center">
-										<img src="images/author-image-2-646x680.jpg" class="img-fluid" alt="">
+										<img src="https://live.staticflickr.com/65535/53249114282_b9ac9ce2de_m.jpg" class="img-fluid" alt="" />
 
 										<h2 class="m-n">Sonal Madala</h2>
 
 										<p>
-											Content Specialist <br>
-
-											
+											Content Specialist<br>
 										</p>
 									</div>
 
 									<div class="col-sm-3 text-center">
-										<img src="images/author-image-3-646x680.jpg" class="img-fluid" alt="">
+										<img src="https://live.staticflickr.com/65535/53250301183_a7c2aac8ab_m.jpg" class="img-fluid" alt="" />
 
 										<h2 class="m-n">Varna Srinivasan</h2>
 
 										<p>
-											Front End Developer <br>
-
-											
+											Front-End Developer <br>
 										</p>
-									</div>
 									</div>
 
 									<div class="col-sm-3 text-center">
-										<img src="images/author-image-3-646x680.jpg" class="img-fluid" alt="">
+										<img src="https://live.staticflickr.com/65535/53250499315_ae062a6594_m.jpg" class="img-fluid" alt="" />
 
-										<h2 class="m-n">Satya </h2>
+										<h2 class="m-n">Satya Edidi</h2>
 
 										<p>
-											Front End Developer <br>
-
-											
+											Front-End Developer<br>
 										</p>
 									</div>
 
 									<div class="col-sm-3 text-center">
-										<img src="images/author-image-4-646x680.jpg" class="img-fluid" alt="">
+										<img src="https://live.staticflickr.com/65535/53249121977_ef9825333b_m.jpg" class="img-fluid" alt="" />
 
 										<h2 class="m-n">Priyanka Manglani</h2>
 
 										<p>
-											Back End Developer <br>
-
-											
+											Back-End Developer<br>
 										</p>
-									</div>
 									</div>
 
 									<div class="col-sm-3 text-center">
-										<img src="images/author-image-4-646x680.jpg" class="img-fluid" alt="">
+										<img src="https://live.staticflickr.com/65535/53250504305_691463465a_m.jpg" class="img-fluid" alt="" />
 
-										<h2 class="m-n">Sanjana Mohan, Priyanka Manglani</h2>
+										<h2 class="m-n">Sanjana Mohan</h2>
 
 										<p>
-											Back End Developer <br>
-
-											
+											Back-End Developer<br>
 										</p>
 									</div>
 								</div>
@@ -125,10 +125,6 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<section>
-								
-							
-							</section>
 
 							<ul class="copyright">
 								<li>Copyright © 2020 Company Name </li>
@@ -144,19 +140,6 @@
 			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/main.js"></script><nav id="menu"><div class="inner">
-					<h2>Menu</h2>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-
-						<li><a href="blog.html">Blog</a></li>
-
-						<li><a href="about.html">About</a></li>
-
-						<li><a href="team.html" class="active">Authors</a></li>
-
-						<li><a href="contact.html">Contact Us</a></li>
-					</ul>
-				</div><a class="close" href="#menu">Close</a></nav>
-	
-</body></html>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
