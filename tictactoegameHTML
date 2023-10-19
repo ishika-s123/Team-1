@@ -3,19 +3,49 @@
 <head>
     <title>Tic-Tac-Toe Game</title>
     <style>
-        table {
+body {
+    background-color: #ffffcc; /* Light yellow background color */
+}
+        
+/* Center the title horizontally and vertically */
+h1 {
+    text-align: center;
+    line-height: 50px; /* Adjust this value to vertically center the title */
+    margin: 25; /* Remove default margins */
+	font-size: 90px;
+	font-weight: bold;
+	color: red;
+}
+
+/* Center the table horizontally and vertically */
+table {
+    margin: 0 auto; /* Center the table horizontally */
+    margin-top: 25px; /* Adjust this value to vertically center the table */
+}
+
+
+
+table {
             border-collapse: collapse;
         }
 
         td {
-            width: 50px;
-            height: 50px;
+            width: 100px;
+            height: 100px;
             text-align: center;
-            font-size: 24px;
+            font-size: 70px;
             font-weight: bold;
-            border: 1px solid black;
+            border: 3px solid red;
             cursor: pointer;
         }
+
+#message {
+        text-align: center; 
+        color: black;
+	font-size: 50px;
+    }
+
+
     </style>
 </head>
 <body>
@@ -56,6 +86,7 @@
             for (var i = 0; i < winningCombinations.length; i++) {
                 var [a, b, c] = winningCombinations[i];
                 if (intArray[a] === currentPlayer && intArray[b] === currentPlayer && intArray[c] === currentPlayer) {
+
                     return true;
                 }
             }
@@ -70,6 +101,7 @@
             if (gameOver) {
                 if (checkWin()) {
                     message.textContent = "Player " + (currentPlayer === 1 ? 'X' : 'O') + " wins!";
+
                 } else {
                     message.textContent = "It's a stalemate!";
                 }
@@ -83,10 +115,12 @@
                 if (!gameOver && intArray[index] === 0) {
                     intArray[index] = currentPlayer;
                     cell.textContent = currentPlayer === 1 ? 'X' : 'O';
+                    cell.style.color = 'blue'; // Set the color to blue for the clicked cell
                     gameOver = checkWin() || checkTie();
                     if (!gameOver) {
                         currentPlayer = 3 - currentPlayer; // Toggle between 1 and 2
                     }
+
                     updateMessage();
                 }
             });
@@ -94,4 +128,3 @@
     </script>
 </body>
 </html>
-
