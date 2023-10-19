@@ -7,15 +7,25 @@
             border-collapse: collapse;
         }
 
-        td {
-            width: 50px;
-            height: 50px;
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            border: 1px solid black;
-            cursor: pointer;
-        }
+table {
+    width: 300px; /* Increase the table width */
+    height: 300px; /* Increase the table height */
+    margin: 0 auto; /* Center the table horizontally on the page */
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px; /* Increase the cell width */
+    height: 100px; /* Increase the cell height */
+    text-align: center;
+    font-size: 36px; /* Increase the font size */
+    font-weight: bold;
+    border: 2px solid #3498db; /* Change the border color to a blue shade */
+    cursor: pointer;
+    background-color: #f1c40f; /* Change the background color to a yellow shade */
+    color: #e74c3c; /* Change the text color to a red shade */
+}
+
     </style>
 </head>
 <body>
