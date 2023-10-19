@@ -3,31 +3,18 @@
 <head>
     <title>Tic-Tac-Toe Game</title>
     <style>
-        /* Center the title and the table */
-        body {
-            text-align: center;
-            background-color: #fff7e6; /* Light yellow background */
-        }
-
-        /* Style for the Tic-Tac-Toe table */
         table {
-            width: 1000px; /* Increase table width to 1000px */
-            height: 1000px; /* Increase table height to 1000px */
-            margin: 0 auto; /* Center the table horizontally on the page */
             border-collapse: collapse;
-            background-color: #fff; /* White table background */
         }
 
         td {
-            width: 100px; /* Increase cell width to 100px */
-            height: 100px; /* Increase cell height to 100px */
+            width: 200px;
+            height: 200px;
             text-align: center;
-            font-size: 36px; /* Increase font size to 36px */
+            font-size: 100px;
             font-weight: bold;
-            border: 2px solid #3498db; /* Blue border color */
+            border: 1px solid red;
             cursor: pointer;
-            background-color: #f1c40f; /* Yellow cell background */
-            color: #e74c3c; /* Red text color */
         }
     </style>
 </head>
@@ -52,7 +39,6 @@
     </table>
     <p id="message">Player X's turn. Click a cell to make a move.</p>
 
-    <!-- The rest of your JavaScript code remains unchanged -->
     <script>
         var intArray = new Array(9).fill(0);
         var currentPlayer = 1;
@@ -60,7 +46,51 @@
         var cells = document.querySelectorAll("td");
         var message = document.getElementById("message");
 
-        // ... (The rest of your JavaScript code)
+        function checkWin() {
+            var winningCombinations = [
+                [0, 1, 2], [3, 4, 5], [6, 7, 8],
+                [0, 3, 6], [1, 4, 7], [2, 5, 8],
+                [0, 4, 8], [2, 4, 6]
+            ];
+
+            for (var i = 0; i < winningCombinations.length; i++) {
+                var [a, b, c] = winningCombinations[i];
+                if (intArray[a] === currentPlayer && intArray[b] === currentPlayer && intArray[c] === currentPlayer) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function checkTie() {
+            return !intArray.includes(0);
+        }
+
+        function updateMessage() {
+            if (gameOver) {
+                if (checkWin()) {
+                    message.textContent = "Player " + (currentPlayer === 1 ? 'X' : 'O') + " wins!";
+                } else {
+                    message.textContent = "It's a stalemate!";
+                }
+            } else {
+                message.textContent = "Player " + (currentPlayer === 1 ? 'X' : 'O') + "'s turn. Click a cell to make a move.";
+            }
+        }
+
+        cells.forEach(function (cell, index) {
+            cell.addEventListener("click", function () {
+                if (!gameOver && intArray[index] === 0) {
+                    intArray[index] = currentPlayer;
+                    cell.textContent = currentPlayer === 1 ? 'X' : 'O';
+                    gameOver = checkWin() || checkTie();
+                    if (!gameOver) {
+                        currentPlayer = 3 - currentPlayer; // Toggle between 1 and 2
+                    }
+                    updateMessage();
+                }
+            });
+        });
     </script>
 </body>
 </html>
