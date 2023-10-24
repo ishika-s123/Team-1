@@ -1,0 +1,22 @@
+.button {
+  border: none;
+  padding: 15px 42px;
+  border-radius: 15px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 10px;
+  cursor: pointer;
+}
+
+.button1 {
+  left: 30%;
+  position: absolute;
+}
+.button2 {
+  left: 60%;
+  position: absolute;
+}
