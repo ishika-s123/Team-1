@@ -44,12 +44,12 @@ if (!isset($_SESSION["user"])){
 						<h1>Projects</h1>
 
 						<div class="image main">
-							<img src="https://assets.kpmg.com/is/image/kpmg/project-management-banner:cq5dam.web.1400.350" class="img-fluid" alt="">
+							<img src="" class="img-fluid" alt="">
 						</div>
 						<div class="container">	
 							<div class="row">
 								<div class="col-sm-4 text-center">
-									<a href="game.php"><img src="https://lh3.googleusercontent.com/pw/ADCreHc49PREvJ_MIFXBuCfu9mSTYjTdUJ27HjI07cOsT_nm9zXiP8cr76FD_hECW8iw0XkJDOaagUUbgHPvw5J39yEustiN8WLCz8EfcryaV7hpRWKSKq2RflT5Rvm1W8iJufxAWEIiZPZ8Gr5DtBhASqQkH9POrx4WHhudZvk34mb4X8VUwqI7i7x3K2W9TyhuaFO-xtfSWaJvQuG455rPwO1Nc4M9hw6kps2Aa5TIJR8BsirJM4d1v_aiEjL2US-xLPoG4HKm-x9publUBttVfHF0spyoOpBA7P6MKT3gn1hWHSlBxiZPB5ldjReOcJJE_agk79SoEL4ySR5-lCTygoru9wvTAdOU9otcXTI_A2jY5riv2RsYbMstjK8gcKRqFRFlyhiIIsZqBVO2dqgWIjfTgz89t0AN7YocJlb9semogcOGdMJYCsTMIgeN2nrEqh1IPgcDLqt02B6p5SQ5DFTSraBnkm4qqDTUYR4KKj-bn6gP-u-fMXWc8Vw9GGDFIBYDvlNPif4SumupCRmNy5JLtbiImRMejzgExiwf5wSN8deVJ3l3ZB_iaNfUbmupmm7_TdeUWp9zmOCSW53s6C7nZ3XSMr8b7vzxFKGPryG8_31PavsqTTNAJZ4boVj0OS5TR4kED73npBdfgzSfIDoftQhG1syue-ut0G98w4OaDyXa42PpqoGrMoFCcEA4jkw4HGGhMoL_UMPBRDFSg3s97sC8hwmOJFo4JPahgqGL6Oz46h3q7uzvjUzXvlk6ecgtyTcdZ8htQ-EQvCWf2wKj9Yb0CY2vsNwNL3G1fYAb7bSBeRV8jGtyUmvp8lmfKIrSvYXDQ87aIEXlsgz7ZL2Phu4RE8yYzzY4Hz_m0xyr68A1tobcM9MMdqb2NOIqsV6J6gm4oVkFtMarFt7QrZR8zUqI6r706lwv-PygFhzXlgzZQXXNyp1kDpSOYQrydtdJRyTJUO6jZ1AHNAEdTZfk_iM_qp1c9X6l0Uybviu-Wrq87QSUdf-thBrCHpF6sm-K-max=w300-h288-s-no?authuser=0" alt=""/></a>
+									<a href="Project1Game/game.php"><img src="https://lh3.googleusercontent.com/pw/ADCreHc49PREvJ_MIFXBuCfu9mSTYjTdUJ27HjI07cOsT_nm9zXiP8cr76FD_hECW8iw0XkJDOaagUUbgHPvw5J39yEustiN8WLCz8EfcryaV7hpRWKSKq2RflT5Rvm1W8iJufxAWEIiZPZ8Gr5DtBhASqQkH9POrx4WHhudZvk34mb4X8VUwqI7i7x3K2W9TyhuaFO-xtfSWaJvQuG455rPwO1Nc4M9hw6kps2Aa5TIJR8BsirJM4d1v_aiEjL2US-xLPoG4HKm-x9publUBttVfHF0spyoOpBA7P6MKT3gn1hWHSlBxiZPB5ldjReOcJJE_agk79SoEL4ySR5-lCTygoru9wvTAdOU9otcXTI_A2jY5riv2RsYbMstjK8gcKRqFRFlyhiIIsZqBVO2dqgWIjfTgz89t0AN7YocJlb9semogcOGdMJYCsTMIgeN2nrEqh1IPgcDLqt02B6p5SQ5DFTSraBnkm4qqDTUYR4KKj-bn6gP-u-fMXWc8Vw9GGDFIBYDvlNPif4SumupCRmNy5JLtbiImRMejzgExiwf5wSN8deVJ3l3ZB_iaNfUbmupmm7_TdeUWp9zmOCSW53s6C7nZ3XSMr8b7vzxFKGPryG8_31PavsqTTNAJZ4boVj0OS5TR4kED73npBdfgzSfIDoftQhG1syue-ut0G98w4OaDyXa42PpqoGrMoFCcEA4jkw4HGGhMoL_UMPBRDFSg3s97sC8hwmOJFo4JPahgqGL6Oz46h3q7uzvjUzXvlk6ecgtyTcdZ8htQ-EQvCWf2wKj9Yb0CY2vsNwNL3G1fYAb7bSBeRV8jGtyUmvp8lmfKIrSvYXDQ87aIEXlsgz7ZL2Phu4RE8yYzzY4Hz_m0xyr68A1tobcM9MMdqb2NOIqsV6J6gm4oVkFtMarFt7QrZR8zUqI6r706lwv-PygFhzXlgzZQXXNyp1kDpSOYQrydtdJRyTJUO6jZ1AHNAEdTZfk_iM_qp1c9X6l0Uybviu-Wrq87QSUdf-thBrCHpF6sm-K-max=w300-h288-s-no?authuser=0" alt=""/></a>
 
 									<h2 class="m-n"><a href="Project1Game/game.php">Tic-Tac-Toe</a></h2>
 
