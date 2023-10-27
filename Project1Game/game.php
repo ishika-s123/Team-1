@@ -129,7 +129,7 @@ table {
 
       <button class="button button2" onclick="location.reload()">Reset Game</button>
     
-    <a href="projects.php" class="button1">
+    <a href="../projects.php" class="button1">
         <button class="button button1">Return</button>
     </a>    
     <link rel="stylesheet" href="game.css">
