@@ -59,7 +59,7 @@ if (!isset($_SESSION["user"])){
 							<h1>Our Team</h1>
 
 							<div class="image main">
-								<img src="https://lh3.googleusercontent.com/pw/ADCreHeO91Bq2BUdkFyvayVknwdLdo1RJeWBiwwNYkQT5Pt0B80wqmv51vCI8mkKp1jmOWpYXcT2HRQCJBKfqBT7lAskRznzQeh9M-NWVLnvJdNjUnq9_K9ssN1IXme_8aNyq5N2PtSfg55UUAkyEL0VH4483WPZtzcYvhudT25rLQQi9wVwc78WnHhUC8NLieVTbMUYRnZMsIWPoVTdjVT6PPdtyr4ebkj0stuSw3uCOlkiPauYWRjxFq4225BvOc5nKqVTyMidNXVwbpjWUe5QQnFjlN6kl5eHTVrh5JwbhBVrNNjyzLHRfaeL3uIXfASBpiB-1XRwJ5viHvq02xY2lxfRM-xF6KmENImSp4Me0i9dkWz41mBurEiGC62dfoogcguuGvRXvmk7hadPa9XSGj2HbMKb-EHl9q9mYAt4rbauj84d4jW7tx0KC4gZkWKg07IEJs0v3BFxb6dTqYa4b6DG-1o1-p8DezZeUDUK7NWH-MdXLSQCjpXGTVWHdK2cdJSFQxE2TQkdbCASGI6WLxfTHfKZ20I1WAEEgFGoS9zQyZqG9xkE708lMXQ9LU3lqRUQN06DHj_ZVOwKrfgCOhlFR6LnkQf5c6lb3lmMJnx9vQbQpOXDLEsNA72bZKIQWxhS5oEDswMWd_6hOv7SvbSY1eoFETZJ_Zex_DyEHM829xy-5QCmg-poH7Bi5LxQxswxCxK_HTjiiQ8o2KttjySHnYGBepOwzm28WT5q6ZRm2qSucaZohT-SVn0iSOnja7GdeE6pA_8d90ft51905G4ItEBa8cozWi7WddZ4p-iuvdkOAOMaUfM-1yJLYSbFpKW8FPbXC4WLXeXJRJbJTgavICuY5XdfO2Gkt941Qtt3butGT5SS40O7_Ee1VZ5Agq0q0w9ZltLYTUWY7zAkdnmZLdMYcYXGrtGlkPX-3S1oYbn4MBE-wplLQS54WRr1fHfHIeSYIJ48eyjcaTFiYEzP9qkObz3VSEI927s5XV9ZPEniWvXvplwhszyL7tWS52VQ6Nsn=w1024-h861-s-no?authuser=0" class="center" alt="" style="width:693px;height:567;"/>
+								<img src="grouppic.jpg" class="center" alt="" style="width:693px;height:567;"/>
 							</div>
 							<p>We are a team of six women in STEM looking to explore the world of CS. We are excited to develop our understanding of computer science and coding through this class. 
 								We look forward to creating projects and expanding our knowledge!</p>
@@ -69,7 +69,7 @@ if (!isset($_SESSION["user"])){
 									<div class="col-sm-4 text-center">
 										<img src="https://lh3.googleusercontent.com/pw/ADCreHeYBobu35ivipiySTTlTiAouo_k6lYcao7ewtobTo7NIQAZj_T9l7BEDQl4NSQodHk_3OsHnPuPJf85XvzLG5Mqor8amEedtz_T_z4GW1QzTodUdAvkmSQIfkYXFKEQz8RoUdfNUyVNrbsnQRzZSz_kzbhJ5QNoHEvwRIOURuhGjYQ3cTCwmXTkULvHd3K_J3J63rsSDkECrT27yAEd59jiG9f0Y2iYKQpK-cYQ6lqS0LDiti_gNovnCi1_-gdcgaoQpiuwEJFgIsmp3WuYavkJNvGlb4FcdgW_3W327PqnLl1vZfKUcTLNnFt_fyjNXlnNffXHFTEiKtcEq80SHg1DqbwI1zv7GXvtJeZ8MGXUtJVUAckzUuAX7EWHhkeGKQI2ihaZks5S5TyqxbyX0_knu4SDlPZEfa99Zvp-ItWop3MelgNa_o6egFrwJUKl03KC2HC74uIJfFbb-pFOvDaqds-Miy3u2a-P46ur2olQlFq6xripqdAWtsNIWPi8lxQzV3lU9BA8E4C_qNy1YJxxQEuZkVtaHYlclDSkdQIom5g4Bu8HB2JETTrSOxhsya0hPuqHEyamDacuqj4I6BWmpzvdgS6pecNHRhB3EsAjNT205Fa0cqKpZMMv84mXCp_r2Ve0n6A2k0BPBjfJYZI4_IG6Wbyn7Tg8swHLx_Jl8qOy4u3jxpegpJQYA47XIITR5W9h0jS60PZ3llomowM0OspYjSl3hbW2D_XLGcfbLrh0VO4yOJSlbgNbovCDtHAk3jG7OlEiUYoEF1t4W1kviQQEP33qDG3lWdxAvsJZ-rTtJWsYtDciadurtZLn18Hh5SmFCG7YjCCcygTdCAGSqnmHTe6qO9BNm-xMqJsYZ1boBUKQ1kYWqnU6QyN8g6Yl-YSL5LXecn-GogR8xGSsetV7juPJtJCAFzS8idkxafuTiH4sYf7tS7AUSn9aDu__S_KwdLNTmji5TXTD3Zx9zOmaBVH7pj-zx4i0H7Z48mmnrAyRHCtdACvgjnFQT9H24Tq9=w670-h670-s-no?authuser=0" class="img-fluid" alt="" />
 	
-										<h2 class="m-n"><a href="Ishika.html">Ishika Singh</a></h2>
+										<h2 class="m-n"><a href="TeamPages/Ishika.html">Ishika Singh</a></h2>
 	
 										<p> Webmaster </p>
 									</div>
