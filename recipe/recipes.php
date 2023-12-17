@@ -129,7 +129,7 @@ body {
 	  <figure>
 		  <img src="FoodImage/GrilledCheeseImage.jpg" alt="Cover image" />
 	  </figure>
-	  <h1><a href="GrilledCheeseImage.php">Grilled Cheese</a></h1>
+	  <h1><a href="GrilledCheese.php">Grilled Cheese</a></h1>
   </div> <!-- end recipe-card -->
 
   <div class="recipe-card">
