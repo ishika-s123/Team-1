@@ -55,7 +55,7 @@
       margin-bottom: 0px;
     }
     .titleText{
-      margin-top:30px;
+      margin-top:120px;
     }
     .ingredients{
       display: inline-block;
@@ -82,7 +82,7 @@
       </div>
 
     <div class="container">
-         <img src="FoodImage/TomatoSoupImage.jpg" alt="" width="475" height="350" style=" border-radius:2%; position:absolute; top:130px; left:200px;">
+         <img src="FoodImage/QuesadillasImage.jpg" alt="" width="400" height="300" style=" border-radius:2%; position:absolute; top:130px; left:250px;">
           <div class ="text">
              <h1>Quesadillas Recipe</h1><br>
              <p>
@@ -106,7 +106,7 @@
           <div class="titleText">
             <h5>Servings</h5>
           </div>
-                <form action="TomatoSoup.php" method="post">
+                <form action="Quesadillas.php" method="post">
                   <div class="form-group">
                     <input type="text" class="form-control" name="Test" placeholder="Servings:">
                   </div>
@@ -132,12 +132,12 @@
           <hr width="5%: " size="2">
           <p>
             <b>Step 1</b>: Heat a medium skillet over medium heat.<br> Warm your tortilla for about 30 seconds, flipping halfway. <br>
-            <b>Step 2</b>: Sprinkle one-half of the tortilla with about half of the cheese.<br>
+            <b>Step 2</b>: Sprinkle one-half of the tortilla with about half<br> of the cheese.<br>
             <b>Step 3</b>: Cover the cheese evenly with the remaining <br> fillings: beans, bell pepper, onion and jalapeño<br>
             <b>Step 4</b>: Sprinkle the remaining cheese over the fillings, <br> and fold over the empty side of the tortilla to enclose the fillings.<br>
             <b>Step 5</b>: Quickly brush the top of the quesadilla with a <br> light coating of oil, then carefully flip it with a spatula.<br>
             <b>Step 6</b>: Let the quesadilla cook until golden and crispy on the bottom<br>
-            <b>Step 7</b>: Remove the skillet from the heat and transfer the quesadilla to a cutting board<br>
+            <b>Step 7</b>: Remove the skillet from the heat and transfer the <br>quesadilla to a cutting board<br>
             <b>Step 8</b>: Serve promptly, with any sauces or garnishes that you would like.<br>
             
           </p>
