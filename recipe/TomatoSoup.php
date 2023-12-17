@@ -73,8 +73,8 @@
 					<div class="inner">
 
 						<!-- Logo -->
-							<a href="projects.php" class="logo">
-								<span class="fa fa-code"></span> <span class="title">Projects</span>
+							<a href="Recipes.php" class="logo">
+								<span class="fa fa-code"></span> <span class="title">Recipes</span>
 							</a>
 
 					</div>
