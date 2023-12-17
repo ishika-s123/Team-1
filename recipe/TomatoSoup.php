@@ -44,8 +44,18 @@
     .time2{
       margin-left: 50px;
     }
-    .servings{
-      margin-left: 50px;
+    .form-btn{
+      padding: 10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+    }
+    .form-group{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .titleText{
+      margin-top:30px;
     }
     .ingredients{
       display: inline-block;
@@ -71,7 +81,7 @@
 				</header>
       </div>
 
-      <div class="container">
+    <div class="container">
          <img src="FoodImage/TomatoSoupImage.jpg" alt="" width="475" height="350" style=" border-radius:2%; position:absolute; top:130px; left:200px;">
           <div class ="text">
              <h1>Tomato Soup Recipe</h1><br>
@@ -93,21 +103,30 @@
                 <h5>Cook Time</h5>
                 <p>15 minutes</p>
               </article>
-              <article class="servings">
-                <h5>Servings</h5>
-                <p>6 servings</p>
-              </article>
+          </div>
 
       <div class="secondpart">
         <div class="ingredients">
+          <div class="titleText">
+            <h5>Servings</h5>
+          </div>
+                <form action="TomatoSoup.php" method="post">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="Test" placeholder="Servings:">
+                  </div>
+                  <div class="form-btn">
+                   <input type="submit" class="btn btn-primary" value="Calculate" name="submit">
+                  </div>
+                </form>
           <h2>Ingredients</h2>
+          <hr width="5%: " size="2">
           <p> 
-            <hr width="5%: " size="2">
-            4 tablespoons unsalted butter <hr width="100%" size="2">
-            1/2 large onion, cut into large wedges <hr width="100%" size="2">
-              1 (28-ounce) can tomatoes <hr width="100%" size="2">
-            1 ½ cups water, vegetable stock, or chicken stock <hr width="100%" size="2">
-            1/2 teaspoon fine sea salt <hr width="100%" size="2">
+            <?php echo $_POST["Test"]*4 ?> tablespoons unsalted butter <hr width="100%" size="2">
+            <?php echo $_POST["Test"]*(1/2) ?> large onion, cut into large wedges <hr width="100%" size="2">
+            <?php echo $_POST["Test"]*1 ?> can tomatoes <hr width="100%" size="2">
+            <?php echo $_POST["Test"]*(3/2) ?> cups water, vegetable stock, or chicken stock <hr width="100%" size="2">
+            <?php echo $_POST["Test"]*(1/2) ?> teaspoon fine sea salt <hr width="100%" size="2">
+          <p>
         </div>
 
         <div class="instructions">
@@ -115,7 +134,7 @@
           <hr width="5%: " size="2">
           <p>
             <b>Step 1</b>: Melt the butter over medium heat in a large saucepan<br>
-            <b>Step 2</b>: Add onion wedges, water, tomatoes with juice, and 1/2<br> teaspoon salt to saucepan<br>
+            <b>Step 2</b>: Add onion wedges, water, tomatoes with juice, and <br>salt to saucepan<br>
             <b>Step 3</b>: Bring to a simmer. Cook, uncovered, for about 40 minutes.<br> Stir occasionally and add additional salt as needed.<br>
             <b>Step 4</b>: Blend the soup, then season to taste<br>
           </p>
