@@ -82,9 +82,9 @@
       </div>
 
     <div class="container">
-         <img src="FoodImage/TomatoSoupImage.jpg" alt="" width="475" height="350" style=" border-radius:2%; position:absolute; top:130px; left:200px;">
+         <img src="FoodImage/GrilledCheeseImage.jpg" alt="" width="400" height="300" style=" border-radius:2%; position:absolute; top:130px; left:200px;">
           <div class ="text">
-             <h1>Tomato Soup Recipe</h1><br>
+             <h1>Grilled Cheese Recipe</h1><br>
              <p>
              Grilled cheese is a classic American sandwich that has been around since the 1920s. 
              It is a hot sandwich made with buttered and toasted bread and originally filled
@@ -108,7 +108,7 @@
           <div class="titleText">
             <h5>Servings</h5>
           </div>
-                <form action="TomatoSoup.php" method="post">
+                <form action="GrilledCheese.php" method="post">
                   <div class="form-group">
                     <input type="text" class="form-control" name="Test" placeholder="Servings:">
                   </div>
