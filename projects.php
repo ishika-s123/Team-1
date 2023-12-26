@@ -1,9 +1,4 @@
-<?php
-session_start();
-if (!isset($_SESSION["user"])){
-    header("Location: index.php");
-}
-?>
+<!DOCTYPE html>
 <html><head>
 	<title>Team 1 | Projects</title>
 	<meta charset="utf-8">
@@ -53,7 +48,15 @@ if (!isset($_SESSION["user"])){
 
 									<h2 class="m-n"><a href="Project1Game/game.php">Tic-Tac-Toe</a></h2>
 
-									<p> Project 1</p>
+									<p> Project 2</p>
+								</div>
+								
+								<div class="col-sm-4 text-center">
+									<img src="" class="img-fluid" alt="" />
+
+									<h2 class="m-n"><a href="recipe/recipes.php">Recipes</a></h2>
+
+									<p> Project 3</p>
 								</div>
 								
 								<div class="col-sm-4 text-center">
