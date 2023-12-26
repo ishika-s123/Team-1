@@ -5,4 +5,4 @@ The Project 1 Game folder holds the tic tac toe game \
 The TeamPages folder holds the individual pages of each member 
 The recipe folder holds Project 2, a calculator for ingredients to make recipes
 
-Thank You !
+Thank You !!
