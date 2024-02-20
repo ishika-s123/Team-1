@@ -79,8 +79,16 @@ if(!isset($_SESSION["user"])){
 							<h2 class="h2"></h2>
 							
 						</div>
-					</div>
+							<!--Link to Database View -->	
+						<div class="col-sm-4 text-center">
+							<img src="" class="img-fluid" alt="" />
 
+							<h2 class="m-n"><a href="phpButton.php">Database View</a></h2>
+
+							<p> someone &nbsp;|&nbsp; someday</p>
+						</div>	
+					</div>
+					
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
