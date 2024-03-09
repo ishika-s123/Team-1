@@ -36,3 +36,57 @@ if ($result->num_rows > 0) {  #Check for presence of return data
 }
 $conn->close();
 ?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        color: border-collapse: collapse;
+        width: 100%;
+        color: #588c7e;
+        font-family: monospace;
+        font-size: 20px; 
+        text-align: left;
+        font-family: monospace;
+        font-size: 20px; 
+        text-align: left;
+      }
+      tr:nth-child(even) {background-color #f2f2f2}
+    </style>
+  </head>
+  <body>
+    <br>
+    <hr>
+    <tr>
+      <th>Id</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Team Position</th>
+    </tr>
+      <?php 
+        echo "<table>";
+        $conn = mysqli_connect("localhost","root","","apcsp");
+        if ($conn->connect_error) {
+          die("Connection failed: " . $conn->connect_error);
+        }
+
+        $sql = "SELECT id, firstName, lastName, teamPosition from teamOne";
+        $result = $conn->query($sql); 
+
+        if ($result->num_rows > 0){
+          while ($row = $result->fetch_assoc()){
+            echo "<tr><td>".$row["id"]."</td><td>".$row["firstName"]."</td><td>".$row["lastName"]."</td><td>".$row["teamPosition"]."</td></tr>";
+          }
+          echo "</table>";
+        }
+        else{
+          echo "No results";
+        }
+        $conn->close();
+      ?>
+  </body>
+</html>
